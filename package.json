@@ -1,6 +1,6 @@
 {
   "name": "react-simple-dnd",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Wrapper around react-dnd",
   "main": "lib/react-simple-dnd",
   "scripts": {
@@ -9,6 +9,10 @@
   },
   "author": "Cássio M. Antonio",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cassiozen/react-simple-dnd.git"
+  },
   "dependencies": {
     "react-dnd": "^2.1.4",
     "react-dnd-html5-backend": "^2.1.2"
