@@ -4,7 +4,9 @@ This Library is simply a bunch of wrappers around another library: [React DnD (b
 
 React DnD is a library that implements Drag'nDrop in a “React way”: It doesn't touch the DOM, embraces unidirectional data flow and, most importantly, defines dragging logic as pure data.
 
-React DnD is powerful and flexible enough to support virtually any scenarios involving Drag'nDrop, but all this characteristic have a cost: React DnD requires a lot of boilerplate even for the most simple use cases.
+React DnD is powerful and flexible enough to support virtually any scenarios involving Drag'nDrop, but this comes at a cost: React DnD requires a lot of boilerplate even for the most simple use cases.
+
+React-simple-dnd is less flexible, but let you create Drag and Drop interfaces with fewer boilerplate and reduced complexity.
 
 ## Installing
 
@@ -18,6 +20,7 @@ There are two elements available: `<DragSource>` and `<DropTarget>`.
 
 Additionaly, there's the `HTML5DragDrop` Higher Order Component that must be wrap the root component of your application and set up the Drag and Drop support.
 
+See the [examples](https://github.com/cassiozen/react-simple-dnd/tree/master/examples) for complete usage cases.
 
 ### `<DragSource>`
 
@@ -68,7 +71,7 @@ onEndDrag:   Optional. Function. Called when the dragging stops.
 ```js
 <DropTarget onDrop={this.handleDrop}>
   <div>
-    I'm a target. Drop on me.
+    Drop on me.
   </div>
 </DropTarget>
 ```
