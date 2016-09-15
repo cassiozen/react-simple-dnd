@@ -13,11 +13,7 @@ class DragComponent extends Component {
     } else {
       child = React.Children.only(this.props.children);
     }
-    return this.props.connectDragComponent(
-      <div>
-        {child}
-      </div>
-    );
+    return this.props.connectDragComponent(child);
   }
 }
 DragComponent.propTypes = {
